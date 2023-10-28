@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity Practice-2</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        body{
+            font-family: roboto; 
+        }
+        div{
+            background-color: antiquewhite;
+            padding-bottom:10px;
+        }
+        .list{
+            font-weight:bolder;
+            
+        }
+        .h12{
+            color: blue;
+        }
+        del{
+            color: rgb(147, 143, 143);
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <h1 class="list">TodoList</h1>
+    <h1 class="h12">Today</h1>
+    <ul>
+        <li>Have a Drink</li>
+        <li><del>Go for a Wait</del></li>
+        <li>Read A book</li>
+        <li><del>Schedule Meeting with Alex</del></li>
+    </ul>
+    <h1>Tomorrow</h1>
+    <ul>
+        <li>Listen to the Video Session</li>
+        <li>Attempt Practice questions</li>
+        <li>Go for Shopping</li>
+        <li>Read Monthly Magazine</li>
+    </ul>
+   </div> 
+</body>
+</html>
